@@ -1,0 +1,314 @@
+@media (min-width: 280px) and (max-width: 767.98px) {
+	.heater-box {
+		position: relative;
+		max-width: 100%;
+	}
+
+	.heater-list {
+		height: 16rem;
+	}
+
+	.heater-list img {
+		width: 30%;
+		padding-top: 0.6rem;
+	}
+
+	.heater-box {
+		padding-top: 1rem;
+	}
+
+	.heater-main-text {
+		max-width: 55%;
+	}
+
+	.heater-box:nth-child(n) {
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		max-width: 100%;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.heater-box {
+		position: relative;
+		max-width: 100%;
+	}
+
+	.heater-box:nth-child(n) {
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1060px) {
+	.heater-box {
+		position: relative;
+		max-width: 100%;
+	}
+
+	.heater-box:nth-child(n) {
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		max-width: 100%;
+	}
+	
+
+}
+
+
+@media screen and (max-width: 992px) {
+	/* nav */
+	
+	.nav-border {
+		display: none;
+	}
+
+	/* heaterbox */
+	.heater-box-one {
+		margin: 0;
+		padding: 2rem 0;
+	}
+
+	.heater-box-four {
+		padding: 0;
+		margin: 0;
+	}
+
+	.heater-box-three {
+		margin: 0;
+		padding: 0;
+		margin-top: 2rem;
+	}
+
+	.long-life-box {
+		width: 55%;
+		margin: 0 auto;
+	}
+
+	.Heater-box-last {
+		padding: 2rem 0;
+	}
+
+	.Heater-box-last::before {
+		margin-top: -32rem;
+	}
+
+	.spec-round {
+		max-width: 120px;
+		height: 120px;
+	}
+
+	.round-third-left {
+		margin: 0px auto 0px 15px;
+	}
+
+	.round-third-right {
+		margin: 0px 15px 0px auto;
+	}
+
+	.round-four-left {
+		margin: 10px 0px 0 -11px;
+	}
+
+	.round-four-right {
+		margin: 10px 0px 0 auto;
+	}
+
+	/* product  */
+
+	.power-product-head h3 {
+		font-size: 3rem;
+	}
+
+  /* footer */
+  .nav-border-footer{
+    display: inline-block;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+  /* footer */
+  
+	.nav-border {
+		display: none;
+	}
+
+	.black-img img {
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	
+
+	/* nav */
+	.img-responsive {
+		display: none;
+	  }
+	  .img-responsive-mobile {
+		display: block;
+	  }
+
+	/* second-box */
+	.heater-box-one {
+		margin: 0;
+		padding: 2rem 0;
+	}
+
+	.heater-box-four {
+		padding: 0;
+	}
+
+	.heater-box-three {
+		margin: 0;
+		padding: 0;
+	}
+
+	.Heater-box-last {
+		padding: 2rem 0;
+	}
+
+	.heater-head {
+		content: '';
+		max-width: 40rem;
+		display: block;
+		height: 20rem;
+		margin: 0 auto 0 auto;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+		border-top: none;
+		border-bottom-left-radius: 20rem;
+		border-bottom-right-radius: 20rem;
+		margin-top: 0rem;
+		margin-bottom: 2rem;
+	}
+
+	.Heater-box-last::before {
+		display: none;
+	}
+
+	.long-life-box {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+
+	/* specifications */
+
+
+	.spec-round {
+		max-width: 100px;
+		height: 100px;
+	}
+
+	.spec-round h4 {
+		font-size: 12px;
+		padding: 10px 0 4px 0;
+	}
+
+	.spec-round h5 {
+		font-size: 18px;
+	}
+
+	.Specifications h3 {
+		font-size: 18px;
+	}
+
+	.specfiy-top-round {
+		margin-top: 0rem;
+	}
+
+	.round-third-left {
+		margin: 15px auto 0px 0px;
+	}
+
+	.round-third-right {
+		margin: 15px 0px 0px auto;
+	}
+
+	.round-four-left {
+		margin: 0px 0px 0 0px;
+	}
+
+	.round-four-right {
+		margin: 0px 0px 0 auto;
+	}
+
+	.heater-box-four {
+		margin: 0;
+	}
+
+	/* profuct 1 */
+	.black-img {
+		justify-content: center;
+	}
+
+	/* product 2 */
+	.power-product-head h3 {
+		font-size: 2.5rem;
+	}
+
+	.buy-btn {
+		margin-bottom: 3rem;
+	}
+
+
+	/* contact */
+	.contact-border {
+		border: none;
+	}
+
+	.contact-phone {
+		justify-content: start;
+	}
+
+	.contact-head-main h2{
+		font-size: 35px;
+	}
+
+	.power-product-main {
+		padding: 3rem 3rem;
+	}
+
+	.tab-main-listing {
+		flex-direction: column;
+	}
+
+	a.video span {
+		background-size: 100%;
+	}
+
+	.tab-main {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.tab-main h3{
+		font-size: 18px;
+	}
+	.specify-list-head {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	.tab-list {
+		margin: 0 2rem;
+	}
+	.tab__content {
+		padding: 0 0px 15px 0px;
+	}
+  .social-icons{
+    padding-bottom: 10px;
+}
+.footer-link{
+    flex-direction: column;
+}
+.nav-border-footer{
+  display: inline-block;
+}
+}
